@@ -1,0 +1,35 @@
+{
+  "name": "delay-async",
+  "version": "1.2.0",
+  "description": "A Promise-based wrapper for setTimeout",
+  "main": "index.js",
+  "types": "./build/delayAsync.d.ts",
+  "scripts": {
+    "build": "rm -rf ./build && tsc",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/delay-async.git"
+  },
+  "files": [
+    "build",
+    "index.js"
+  ],
+  "keywords": [
+    "delay",
+    "wait",
+    "async",
+    "promise",
+    "setTimeout"
+  ],
+  "author": "support@expo.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/expo/delay-async/issues"
+  },
+  "homepage": "https://github.com/expo/delay-async#readme",
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
+}
